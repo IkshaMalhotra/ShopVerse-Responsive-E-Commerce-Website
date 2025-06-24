@@ -67,4 +67,5 @@ shopverse/
 ## Author
 
 **Iksha Malhotra**
+
 Front-End Web Developer | UI-UX Designer | Cse Student
