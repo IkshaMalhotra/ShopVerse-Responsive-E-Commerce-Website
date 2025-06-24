@@ -9,6 +9,10 @@ https://ikshamalhotra.github.io/ShopVerse-Responsive-E-Commerce-Website/
 
 ---
 
+## Preview
+
+[1.png](1.png)
+
 ## Technologies Used
 
 * HTML5
