@@ -9,14 +9,6 @@ https://ikshamalhotra.github.io/ShopVerse-Responsive-E-Commerce-Website/
 
 ---
 
-## Preview
-
-![1.png](1.png)
-![2.png](2.png)
-![3.png](3.png)
-![4.png](4.png)
-![5.png](5.png)
-
 ## Technologies Used
 
 * HTML5
@@ -66,6 +58,16 @@ shopverse/
 * Back to top button based on scroll position
 
 ---
+
+---
+
+## Preview
+
+![1.png](1.png)
+![2.png](2.png)
+![3.png](3.png)
+![4.png](4.png)
+![5.png](5.png)
 
 ## Author
 
