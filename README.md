@@ -5,7 +5,7 @@
 ---
 
 ## Live Demo
-
+https://ikshamalhotra.github.io/ShopVerse-Responsive-E-Commerce-Website/
 
 ---
 
