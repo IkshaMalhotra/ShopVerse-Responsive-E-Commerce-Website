@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand fs-4" href="index.html">ShopVerse</a>
+            <a href="#" class="text-white ms-3 d-flex align-items-center">
+                <i class="bi bi-cart3 fs-5"></i>
+            </a>
+
+
+            <!-- Toggle Button -->
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Side Bar -->
+            <div class="sidebar offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+
+                <!-- Side bar header -->
+                <div class="offcanvas-header border-bottom">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">ShopVerse</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+
+                <!-- Side bar body -->
+                <div
+                    class="offcanvas-body d-flex flex-column justify-content-between align-items-center flex-lg-row p-lg-0 ">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Items">Items</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Footer">Contact</a>
+                        </li>
+
+
+                    </ul>
+
+                    <form class="d-flex justify-content-center align-items-center flex-lg-row" role="search">
+                        <input class=" form-control form-control-sm" type="search" placeholder="Search"
+                            aria-label="Search" />
+                        <button class="btn btn-success btn-sm" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel Section -->
+    <section style="padding-top: 60px;">
+        <div id="carouselslidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel"
+            data-bs-interval="2000">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="position-relative">
+                        <img src="https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f"
+                            class="d-block w-100 img-fluid" style="height: 500px; object-fit: cover;" alt="Slide 1">
+                        <div
+                            class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50 d-flex justify-content-center align-items-center">
+                            <div class="text-center text-white">
+                                <h1 class="fw-bold">ShopVerse</h1>
+                                <p class="fs-5">Order Now</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="position-relative">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+                            class="d-block w-100 img-fluid" style="height: 500px; object-fit: cover;" alt="Slide 2">
+                        <div
+                            class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50 d-flex justify-content-center align-items-center">
+                            <div class="text-center text-white">
+                                <h1 class="fw-bold">ShopVerse</h1>
+                                <p class="fs-5">Order Now</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="position-relative">
+                        <img src="https://images.unsplash.com/photo-1574180045827-681f8a1a9622"
+                            class="d-block w-100 img-fluid" style="height: 500px; object-fit: cover;" alt="Slide 3">
+                        <div
+                            class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50 d-flex justify-content-center align-items-center">
+                            <div class="text-center text-white">
+                                <h1 class="fw-bold">ShopVerse</h1>
+                                <p class="fs-5">Order Now</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Us Section -->
+    <section id="About" class="py-5 bg-light text-center">
+        <div class="container pt-5">
+            <h2 class="mb-4">About Us</h2>
+            <p class="lead text-muted mx-auto" style="max-width: 800px;">
+                At <strong>ShopVerse</strong>, we’re more than just an eCommerce platform — we're your one-stop
+                destination for premium products and excellent service. From fashion to lifestyle, we bring
+                handpicked collections right to your doorstep.
+            </p>
+            <p class="mx-auto" style="max-width: 800px;">
+                With a commitment to quality and customer satisfaction, we aim to make online shopping seamless,
+                affordable, and enjoyable. Join thousands of happy shoppers who trust us every day.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Items Section -->
+    <section id="Items" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Items</h2>
+            <p class="text-center text-muted mb-5">
+                Discover a wide range of products that cater to your every need. From trendy apparel to the latest
+                gadgets, we have it all!
+            </p>
+            <div class="section2">
+                <div class="container">
+                    <div class="items">
+                        <div class="img img1">
+                            <img src="https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="" />
+                        </div>
+                        <div class="name">SHOES</div>
+                        <div class="price">$5</div>
+                        <div class="info">Lightweight running shoes for everyday comfort and grip.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="img img2">
+                            <img src="https://images.pexels.com/photos/3649765/pexels-photo-3649765.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt="" />
+                        </div>
+                        <div class="name">MEN's T-SHIRT</div>
+                        <div class="price">$6.34</div>
+                        <div class="info">Soft cotton tee with breathable fabric and slim fit.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="img img3">
+                            <img src="https://images.unsplash.com/photo-1637069585336-827b298fe84a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8amVhbnN8ZW58MHx8MHx8fDA%3D"
+                                alt="" />
+                        </div>
+                        <div class="name">JEANS</div>
+                        <div class="price">$9</div>
+                        <div class="info">Durable stretch-fit jeans perfect for casual wear.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="img img1">
+                            <img src="https://images.pexels.com/photos/8839887/pexels-photo-8839887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="" />
+                        </div>
+                        <div class="name">WATCH</div>
+                        <div class="price">$9.1</div>
+                        <div class="info">Elegant analog watch with leather strap and date display.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="img img1">
+                            <img src="https://images.pexels.com/photos/6858618/pexels-photo-6858618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="" />
+                        </div>
+                        <div class="name">SMART PHONE</div>
+                        <div class="price">$20</div>
+                        <div class="info">5G enabled smartphone with 64MP camera, AMOLED display.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="img img1">
+                            <img src="https://images.pexels.com/photos/5552789/pexels-photo-5552789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="" />
+                        </div>
+                        <div class="name">TELEVISION</div>
+                        <div class="price">$18</div>
+                        <div class="info">40-inch Full HD smart LED TV with built-in Wi-Fi.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="img img1">
+                            <img src="https://images.pexels.com/photos/4295985/pexels-photo-4295985.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt="" />
+                        </div>
+                        <div class="name">HOODIES</div>
+                        <div class="price">$6.7</div>
+                        <div class="info">Warm fleece hoodie with front pockets and zip closure.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="img img1">
+                            <img src="https://plus.unsplash.com/premium_photo-1664391912659-c896c7e441e0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGlubmVyJTIwc2V0fGVufDB8fDB8fHww"
+                                alt="" />
+                        </div>
+                        <div class="name">DINNER SET</div>
+                        <div class="price">$10</div>
+                        <div class="info">12-piece ceramic dinnerware set for modern dining.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+
+                    <div class="items">
+                        <div class="img img1">
+                            <img src="https://images.pexels.com/photos/2659939/pexels-photo-2659939.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt="" />
+                        </div>
+                        <div class="name">LAPTOP</div>
+                        <div class="price">$99</div>
+                        <div class="info">High-performance laptop with 8GB RAM and SSD storage.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="img img1">
+                            <img src="https://images.unsplash.com/photo-1626143508000-4b5904e5e84a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWljcm93YXZlfGVufDB8fDB8fHww"
+                                alt="" />
+                        </div>
+                        <div class="name">MICROWAVE</div>
+                        <div class="price">$30</div>
+                        <div class="info">800W microwave with grill function and digital controls.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="img img1">
+                            <img src="https://images.unsplash.com/photo-1608354580875-30bd4168b351?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwbWFrZXJ8ZW58MHx8MHx8fDA%3D>"
+                                alt="" />
+                        </div>
+                        <div class="name">COFFEE MAKER</div>
+                        <div class="price">$29.7</div>
+                        <div class="info">Automatic coffee maker with timer and reusable filter.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="img img1">
+                            <img src="https://images.pexels.com/photos/6606354/pexels-photo-6606354.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt="" />
+                        </div>
+                        <div class="name">BED</div>
+                        <div class="price">$100</div>
+                        <div class="info">King-size wooden bed with storage drawers and headboard.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="img img1">
+                            <img src="https://plus.unsplash.com/premium_photo-1679943423706-570c6462f9a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QUN8ZW58MHx8MHx8fDA%3D"
+                                alt="" />
+                        </div>
+                        <div class="name">AIR CONDITIONER</div>
+                        <div class="price">$78</div>
+                        <div class="info">1.5-ton split AC with inverter compressor and auto-clean.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="img img1">
+                            <img src="https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="" />
+                        </div>
+                        <div class="name">BOOK</div>
+                        <div class="price">$9</div>
+                        <div class="info">Bestselling fiction novel with inspiring life lessons.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="img img1">
+                            <img src="https://images.pexels.com/photos/4339598/pexels-photo-4339598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="" />
+                        </div>
+                        <div class="name">BAG</div>
+                        <div class="price">$36.5</div>
+                        <div class="info">Spacious leather backpack ideal for work and travel.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="img img1">
+                            <img src="https://images.unsplash.com/photo-1609748340041-f5d61e061ebc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2FyZWV8ZW58MHx8MHx8fDA%3D"
+                                alt="" />
+                        </div>
+                        <div class="name">SAREES</div>
+                        <div class="price">$25.6</div>
+                        <div class="info">Traditional silk saree with embroidered border.</div>
+                        <div class="p-2">
+                            <button class="btn-cart w-100">Add to Cart</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+    </section>
+    <footer>
+        <div id="Footer" class="footer0">
+            <h1>ShopVerse</h1>
+        </div>
+        <div class="footer1">
+            Connect with us at
+            <div class="social-media">
+                <a href="https://www.facebook.com"> <ion-icon name="logo-facebook"></ion-icon> </a>
+                <a href="https://www.linkedin.com"> <ion-icon name="logo-linkedin"></ion-icon> </a>
+                <a href="https://www.youtube.com"> <ion-icon name="logo-youtube"></ion-icon> </a>
+                <a href="https://www.instagram.com"> <ion-icon name="logo-instagram"></ion-icon> </a>
+                <a href="https://www.twitter.com"> <ion-icon name="logo-twitter"></ion-icon> </a>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="product">
+                <div class="heading">Products</div>
+                <div class="div">Sell your Products</div>
+                <div class="div">Advertise</div>
+                <div class="div">Pricing</div>
+                <div class="div">Product Buisness</div>
+            </div>
+            <div class="services">
+                <div class="heading">Services</div>
+                <div class="div">Return</div>
+                <div class="div">Cash Back</div>
+                <div class="div">Affiliate Marketing</div>
+                <div class="div">Others</div>
+            </div>
+            <div class="Company">
+                <div class="heading">Company</div>
+                <div class="div">Complaint</div>
+                <div class="div">Careers</div>
+                <div class="div">Affiliate Marketing</div>
+                <div class="div">Support</div>
+            </div>
+            <div class="Get Help">
+                <div class="heading">Get Help</div>
+                <div class="div">Help Center</div>
+                <div class="div">Privacy Policy</div>
+                <div class="div">Terms</div>
+                <div class="div">Login</div>
+            </div>
+        </div>
+        <div class="footer3">
+            Copyright © <h4>ShopVerse</h4> 2021-2028
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>
