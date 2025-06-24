@@ -59,6 +59,12 @@ shopverse/
 
 ---
 
+## Author
+
+**Iksha Malhotra**
+
+Front-End Web Developer | UI-UX Designer | Cse Student
+
 ---
 
 ## Preview
@@ -69,8 +75,3 @@ shopverse/
 ![4.png](4.png)
 ![5.png](5.png)
 
-## Author
-
-**Iksha Malhotra**
-
-Front-End Web Developer | UI-UX Designer | Cse Student
